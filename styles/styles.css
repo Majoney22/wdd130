@@ -17,6 +17,14 @@ main {
     max-width: 840px;
 }
 
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid #333;
+    padding: 5px;
+    box-shadow: 0 0 10px gray;
+}
+
 aside {
     width: 20rem;
     margin: 1rem;
@@ -31,14 +39,6 @@ aside {
 aside img {
     width: 200px;
     height: auto;
-}
-
-main img {
-    width: 150px;
-    height: auto;
-    border: 1px solid #333;
-    padding: 5px;
-    box-shadow: 0 0 10px gray;
 }
 
 p {
